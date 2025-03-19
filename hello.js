@@ -1,5 +1,7 @@
-function printHello() {
-    console.log("Hello, World!");
+function Person(name) {
+    this.name = name;
+    return {};
 }
 
-printHello();
+const person1 = new Person('Charlie');
+console.log(person1.name);
